@@ -1,0 +1,60 @@
+#main{
+    width:100vw;
+    height: 100vh;
+    background-color: beige;
+
+}
+.container{
+    width:80vw;
+    height: 80vh;
+    display:grid;
+    gap:30px;
+  background-color:#124e78;
+  grid-template-areas:'heading heading heading heading'
+                      'sidebar reviews ratings analysis'
+                      'sidebar reviews ratings analysis'
+                      'sidebar chart chart chart';
+                      grid-template-columns: 30% 20% 20% 20%;
+                      grid-template-rows: 10% 20% ;
+}
+
+#header{
+    grid-area: heading;
+    text-align: center;
+}
+
+#reviews{
+    grid-area: reviews;
+    background-color: #1C2541;
+    color:white;
+    text-align: center;
+}
+#ratings{
+    grid-area: ratings;
+    background-color: #1C2541;
+    color:green;
+    text-align: center;
+
+
+}
+#r1{
+    color:white;
+}
+#count{
+    color:red;
+}
+#analysis{
+    grid-area: analysis;
+    background-color: #1C2541;
+    color:white;
+    text-align: center;
+
+
+}
+#vistors{
+    text-align: center;
+    grid-area: chart;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu2qgkZ6i7wgx639w04Sx_CWCO_r2mbYpyXw&usqp=CAU);
+ background-size: contain;
+
+}

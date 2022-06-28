@@ -1,10 +1,11 @@
+
 const Header = () => {
    return <h1 id='header'>Commence Dashboard Creation!</h1>
 }
 
 const Reviews = () => {
     return <div id='reviews'>
-       <h1>Reviews</h1> <p>2,400<p>You got <span id='count'>+1.1k</span> more reviews than the last 3 days!</p></p>
+       <h1>Reviews</h1> <p><span id='numsize'>2,400</span><p>You got <span id='count'>+1.1k</span> more reviews than the last 3 days!</p></p>
      
     </div> 
 }
@@ -31,11 +32,11 @@ const Sidebar = () =>{
     return(
 <div>
     <h1>Dashboard</h1>
-<h2>Widget</h2>
-<h1>Reviews</h1>
-<h1>Customers</h1>
-<h1>Sentiment Analysis</h1>
-<h1>Average Rating</h1>
+<h3>Widget</h3>
+<h3>Reviews</h3>
+<h3>Customers</h3>
+<h3>Sentiment Analysis</h3>
+<h3>Average Rating</h3>
 </div>
 )
 }

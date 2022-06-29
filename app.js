@@ -30,7 +30,7 @@ const Vistors = () => {
 
 const Sidebar = () =>{
     return(
-<div>
+<div id='sidebar'>
     <h1>Dashboard</h1>
 <h3>Widget</h3>
 <h3>Reviews</h3>

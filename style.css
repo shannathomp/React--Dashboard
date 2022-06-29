@@ -1,9 +1,4 @@
-#main{
-    /* width:100vw;
-    height: 100vh; */
-    background-color: beige;
 
-}
 .container{
     width:100vw;
     height: 100vh;
@@ -14,13 +9,17 @@
                       'sidebar reviews ratings analysis'
                       'sidebar reviews ratings analysis'
                       'sidebar chart chart chart';
-                      grid-template-columns: 30% 20% 20% 20%;
+                      grid-template-columns: 20% 20% 20% 20%;
                       grid-template-rows: 10% 20% ;
+                    justify-content: center;
+                   
 }
 
 #header{
     grid-area: heading;
     text-align: center;
+    color:white;
+  
 }
 
 #reviews{
@@ -56,9 +55,18 @@
     grid-area: chart;
  background-size: contain;
  background-color: #1C2541;
+ color:white;
 
 
 }
 #numsize{
     font-size: 40px;
+}
+#sidebar{
+    grid-area: sidebar;
+    padding-left: 100px;
+ background-color: #1C2541;
+ color:white;
+ 
+
 }

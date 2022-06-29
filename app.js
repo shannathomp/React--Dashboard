@@ -47,6 +47,7 @@ const Sidebar = () =>{
 class App extends React.Component {
     render(){
         return(
+            <section id='top-section'>
             <section className="container">
          <Header/>
          <Sidebar/>
@@ -54,6 +55,7 @@ class App extends React.Component {
          <Ratings/>
          <Analysis/>
          <Vistors/>
+</section>
 </section>
         )
     }

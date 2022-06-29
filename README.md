@@ -2,5 +2,5 @@
 
 <img src='./images/dashboard.png'>
 
-## second option
+## Second Option
 <img src='./images/Untitled.png'>
